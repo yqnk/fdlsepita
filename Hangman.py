@@ -46,7 +46,7 @@ def play():
     """
         Cette fonction permet de lancer le jeu.
         Tant que la partie n'est pas finie, on effectue ces étapes :
-            1)  On affiche l'état de la partie.
+            1)  On affiche l'état de la partie. (game.state)
             2)  On affiche le mot actuel (game.currentWord)
             3)  On récupère une lettre de la part du joueur.
                 Si la donnée rentrée fait plus d'une lettre, alors on recommence.
